@@ -1,0 +1,18 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://mc.yandex.ru https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://mc.yandex.ru https://mc.yandex.com; font-src 'self'; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com https://mc.yandex.ru https://mc.yandex.com wss://mc.yandex.ru; frame-src https://challenges.cloudflare.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+
+# Hashed build assets never change: cache them for a year.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Brand files keep their names, so cache them for a shorter time.
+/brand/*
+  Cache-Control: public, max-age=86400
+
+# The free *.pages.dev address must never compete with the real domain in search.
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex

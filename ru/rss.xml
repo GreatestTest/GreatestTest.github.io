@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GDT Блог</title>
+    <link>https://greatesttest.github.io/ru/blog/</link>
+    <description>Статьи о SEO, Telegram-ботах, аудитах и ведении digital-бизнеса.</description>
+    <language>ru</language>
+    <item>
+      <title>Технический SEO-аудит: что мы проверяем в первую очередь</title>
+      <link>https://greatesttest.github.io/ru/blog/technical-seo-audit-checklist/</link>
+      <guid isPermaLink="true">https://greatesttest.github.io/ru/blog/technical-seo-audit-checklist/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Практический чек-лист первого прохода технического SEO-аудита: индексация, дубли, скорость, структура, структурированные данные и языковые версии.</description>
+    </item>
+  </channel>
+</rss>
